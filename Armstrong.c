@@ -4,6 +4,7 @@ int main()
 {
 int num,temp,sum,rem,n;
 n=0;
+sum=0;
 printf("enter a number to check if it is an Armstrong number or not: ");
 scanf("%d",&num);
 temp=num;
