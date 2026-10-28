@@ -3,6 +3,11 @@
 int main()
 {
 int num,temp,sum,rem,n;
+<<<<<<< HEAD
+=======
+n=0;
+sum=0;
+>>>>>>> 9355785caf4f3cb2bd05a9c0bd6028e7df80d9d5
 printf("enter a number to check if it is an Armstrong number or not: ");
 scanf("%d",&num);
 n=0;
