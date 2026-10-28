@@ -3,9 +3,10 @@
 int main()
 {
 int num,temp,sum,rem,n;
-n=0;
 printf("enter a number to check if it is an Armstrong number or not: ");
 scanf("%d",&num);
+n=0;
+sum=0;
 temp=num;
 while(temp!=0)
 {
@@ -16,7 +17,7 @@ temp=num;
 while(temp!=0)
 {
     rem=(temp%10);
-    sum=sum+pow(rem,n);
+    sum= sum + pow(rem,n);
     temp=(temp/10);
 }
 if(sum==num)
@@ -25,6 +26,7 @@ if(sum==num)
 }
 else
 {
-    printf("The number %d is not an armstrong number",num);
+    printf("The sum is %d so,",sum);    
+    printf("\nThe number %d is not an armstrong number",num);
 }
 }
