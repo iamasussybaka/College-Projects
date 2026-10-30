@@ -24,11 +24,12 @@ for (i=0;i<r;i++)
             C[i][j]=(A[i][j]+B[i][j]);
          }
     }
+printf("The Sum of matrices is:");
 for (i=0;i<r;i++)
-{
+{ printf("\n");
     for (j=0;j<c;j++)
      {
-      printf("The Sum of matrices is:%d",C[i][j]);
+      printf("%d\t",C[i][j]);
      }
 }
 
